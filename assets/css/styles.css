@@ -281,7 +281,11 @@ img {
 }
 
 /*=============== PROJECTS ===============*/
-
+.projects__card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
 
 /*=============== SKILLS ===============*/
 
