@@ -460,7 +460,12 @@ body.dark-theme{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-
+@media screen and (max-width: 320px) {
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
 /* For medium devices */
 
 /* For large devices */ ;
