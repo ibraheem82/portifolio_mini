@@ -87,7 +87,15 @@ img {
 }
 
 /*=============== THEME ===============*/
-
+.change-theme{
+  position: absolute;
+  top: 1.5rem;
+  right: 0;
+  font-size: 1.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: .3;
+}
 /*========== Variables Dark theme ==========*/
 
 /*========== 
