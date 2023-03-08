@@ -94,7 +94,11 @@ img {
   font-size: 1.5rem;
   color: var(--title-color);
   cursor: pointer;
-  transition: .3;
+  transition: .3s;
+}
+
+.change-theme:hover{
+  color: var(--first-color);
 }
 /*========== Variables Dark theme ==========*/
 
