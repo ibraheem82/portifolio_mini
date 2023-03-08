@@ -481,5 +481,16 @@ body.dark-theme{
   }
 }
 /* For medium devices */
+@media screen and (min-width: 576px) {
+  .projects__content{
+    grid-template-columns: 332px;
+    justify-content: center;
+  }
+
+  .filters__content{
+    width: 332px;
+    margin: 3rem auto;
+  }
+}
 
 /* For large devices */ ;
