@@ -19,7 +19,7 @@ tabs.forEach(tab => {
       t.classList.remove("filter-tab-active");
     });
 
-    tabs.classList.add('filter-tab-active')
+    tab.classList.add('filter-tab-active')
   });
 });
 
